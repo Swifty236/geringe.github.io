@@ -1,0 +1,115 @@
+
+
+body {
+background-color: #303845;   
+color:white;
+font-family: 'Roboto Mono', monospace;
+}
+
+header{
+  padding: 120px;
+}
+
+h1{
+  color: black;
+}
+
+h2{
+  color: black;
+}
+
+h3{
+  color: black;
+}
+
+img {
+width: 512px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+table {
+border:0.5px solid black;
+background-color: black;
+margin-left: auto;
+margin-right: auto;
+}
+
+th, td {
+border:0.5px solid black;
+}
+
+
+figcaption {
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  }
+
+
+nav a{
+  display: block;
+  padding: 8px;
+  background-color: black;
+  color: white;
+}
+
+nav ul{
+  display: inline;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: black;
+  float: left;
+  text-align: center;
+  list-style-type: none;
+  margin: 0 0;
+
+}
+
+
+
+
+nav ul li{
+  display: inline;
+  float: left;
+  border-right: 1px solid #bbb;
+
+
+}
+
+li a:hover {
+  background-color: #303845;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div {
+  width: 30%;
+  margin-right: 5%;
+  float: left;
+  
+}
+
+
+.last_div{
+  margin-right: 0;
+}
+
+.fig2{
+  width: fit-content;
+  font-size: 10px;
+  text-align: left;
+  left: 0;
+  background-color: black;
+}
