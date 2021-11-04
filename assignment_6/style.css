@@ -1,0 +1,49 @@
+div{
+    border-style: solid;
+    border-color: black;
+}
+
+#astroNames{
+    display: block;
+    position: relative;
+}
+
+.container{
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    margin: 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30vh;
+    display: inline-block;
+    
+}
+
+.ISS{
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    background-color: blue;
+    position: relative;
+    margin: 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30vh;
+    display: inline-block;
+    
+}
+body{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+html{
+    background-color: black;
+}
+
+p, span{
+    color: white;
+}
