@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Gallery Final</title>
+    <!-- ssg.js and jquery have to be in the head --> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/story-show-gallery@3/dist/ssg.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"> </script>
+</head>
+
+<body style="background:black;">
+
+    <!-- SSG binds onto image hyper­links on the page auto­mati­cally. This two images will be in the gallery  --> 
+    <a href='first.jpeg' data-author='by Maydi Gering'>"Alice"</a>
+    <a href='second.jpeg' data-author='by Maydi Gering'>"Octopus"</a>
+    <a href='third.jpeg' data-author='by Maydi Gering'>"Cotton Candy"</a>
+    <a href='fourth.jpeg' data-author='by Maydi Gering'>"Undercover Cat"</a>
+    <a href='fifth.jpeg' data-author='by Maydi Gering'>"Space Dreams"</a>
+    <a href='sixth.jpeg' data-author='by Maydi Gering'>"Underwater"</a>
+
+    <!-- ssg.css goes before body tag -->
+    <script src="https://cdn.jsdelivr.net/npm/story-show-gallery@3/dist/ssg.min.js"> </script>
+    
+    <script>
+        // after loading ssg.js (and before SSG.run) you can override default settings inside ssg.js and customize the gallery:
+        // the complete list of possible settings: https://roman-flossler.github.io/StoryShowGallery/#SSGconfig
+        
+        SSG.cfg.watermarkText = 'Maydi Gering';  // watermark - logo
+        SSG.cfg.watermarkFontSize = 18;
+        SSG.cfg.rightClickProtection = false;   // if TRUE, instead of a browser context menu will be shown SSG hint with full screen mode offer
+        
+        // SSG.run will start the gallery immediately after loading the page and noExit parameter will prevent to quit the gallery.
+        SSG.run( { noExit:true } );
+        // The gallery will behave like a simple webpage. If a user could exit the gallery he would see just a poor page with two links.
+
+     </script>
+
+</body>
+</html>
